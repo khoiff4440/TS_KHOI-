@@ -1,0 +1,57 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+Local Window = MakeWindow({
+Center 
+Title = "Khoi vip pro:)",
+Animation = "TS_khoi"
+},
+Keys = {
+KeySystem = false,
+Title = "KeySystem",
+Description = "",
+KeyLink = "",
+Keys = {"1234"},
+Message = {
+Message = true,
+CorrectKey = "Running script...",
+Incorrectkey = "Incorrect key",
+CopyKeyLink = "Copied to Clipboard"
+}
+}
+})
+
+Minimize Button({
+Image = "http://www.roblox.com/library/8589597518/Shark-famili",
+Size = {60, 60},
+Color = Color3.fromRGB(10, 10, 10),
+Angle = true,
+Stroke = false,
+StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+------ Tab
+Local Tab1o = MakeTab({Name = "Script Farm"})
+Local Tab2o = MakeTab({Name = "Hop"})
+------- BUTTON
+
+Add button(Tab1o, {
+Name = "Redz Hub",
+Callback = function()
+Local Settings = {
+JoinTeam = "Pirates"; -- Pirates/Marines
+Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+end
+})
+
+Add button(Tab2o, {
+Name = "nogichihyuga hop",
+Callback = function()
+Local settings = {
+JoinTeam = "Pirates"; -- Pirates/Marines
+Translator = true; -- true/false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Iamkhnah/noguchihyuga/refs/heads/main/ScriptHop.lua"))()
+end
+}) 
