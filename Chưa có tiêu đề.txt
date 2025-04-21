@@ -1,11 +1,4 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
-
-Local Window = MakeWindow({
-Center 
-Title = "Khoi vip pro:)",
-Animation = "TS_khoi"
-},
-Keys = {
+loadstring(game:(https://raw.githubusercontent.com/khoiff4440/Ts_Khoi/refs/heads/main/hack%20tham%20kh%E1%BA%A3o.txt")()
 KeySystem = false,
 Title = "KeySystem",
 Description = "",
